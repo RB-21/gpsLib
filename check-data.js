@@ -2,12 +2,7 @@ const collect = require('collect.js');
 const mysql = require('mysql');
 const fs = require('fs');
 
-var con = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'vino',
-    password: 'vino#2022',
-    database: 'test'
-});
+
 
 var data = false;
 var latlng  = [];
