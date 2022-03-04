@@ -3,7 +3,12 @@ const main = require('./lib/main');
 var mysql = require('mysql');
 const collect = require('collect.js');
 
-
+var conDB = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'vino',
+    password: 'vino#2022',
+    database: 'test'
+});
 
 const options = {
     debug: true,
